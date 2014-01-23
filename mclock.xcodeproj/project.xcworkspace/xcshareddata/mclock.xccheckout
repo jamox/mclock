@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>43332B46-3617-4249-8B91-9904EA426D82</string>
+	<key>IDESourceControlProjectName</key>
+	<string>mclock</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>13B33DB6-B13E-4536-AC4A-A531E70E566B</key>
+		<string>https://github.com/palaniraja/mclock.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>mclock.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>13B33DB6-B13E-4536-AC4A-A531E70E566B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/palaniraja/mclock.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>13B33DB6-B13E-4536-AC4A-A531E70E566B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>13B33DB6-B13E-4536-AC4A-A531E70E566B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mclock</string>
+		</dict>
+	</array>
+</dict>
+</plist>

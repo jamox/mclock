@@ -18,8 +18,8 @@
         // Initialization code here.
         [[NSUserDefaults standardUserDefaults] registerDefaults:    
          [NSDictionary dictionaryWithObjectsAndKeys:     
-          @"IST", kZoneString,     
-          @"h:mm a", kDisplayFormatString,
+          @"PST", kZoneString,
+          @"h:mm:ss a", kDisplayFormatString,
           [NSNumber numberWithBool:1], kDisplayZonePrefix,
           nil]];
         
@@ -47,9 +47,9 @@
 #pragma mark -
 -(void) updateLabel:(id)sender{
     
-//    NSLog(@"Zone: %@ formatString: %@", zone, formatString);
-//    statusTitle = [NSString stringWithFormat:@"%@%@", prefix, [formatter stringFromDate:[NSDate date]]];
-//    NSLog(@"status title: %@", [NSString stringWithFormat:@"%@%@", prefix, [formatter stringFromDate:[NSDate date]]]);
+    //NSLog(@"Zone: %@ formatString: %@", zone, formatString);
+    //statusTitle = [NSString stringWithFormat:@"%@%@", prefix, [formatter stringFromDate:[NSDate date]]];
+    //NSLog(@"status title: %@", [NSString stringWithFormat:@"%@%@", prefix, [formatter stringFromDate:[NSDate date]]]);
     
     [statusItem setTitle:[NSString stringWithFormat:@"%@%@", prefix, [formatter stringFromDate:[NSDate date]]]];
 }
@@ -79,7 +79,7 @@
     [self reload:nil];
     
     
-    updateTimer =[[NSTimer scheduledTimerWithTimeInterval:60.0
+    updateTimer =[[NSTimer scheduledTimerWithTimeInterval:1.0
                                      target:self
                                    selector:@selector(updateLabel:)
                                    userInfo:nil
